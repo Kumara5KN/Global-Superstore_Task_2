@@ -1,1 +1,40 @@
-📄 Simple Project README: Global Superstore Sales Analysis🎯 Project GoalTo conduct Exploratory Data Analysis (EDA) and Sales Performance Analysis on the Global Superstore dataset to identify key trends and build a preliminary predictive sales model.💾 Datasetglobal_superstore.csvKey Columns: Sales, Profit, Discount, Region, Category, Date.📊 Key Findings1. Profitability & RiskCritical Correlation: There is a strong negative correlation ($-0.57$) between Discount and Profit. High discounts are the primary cause of transactions resulting in losses.Anomaly: High sales often correlate with high shipping costs, suggesting larger, higher-value orders are expensive to fulfill.2. Performance & TrendsSeasonality: Sales show consistent yearly seasonality, with revenue peaking sharply in the Fourth Quarter (Q4).Top Performers: The highest total sales come from the Central Region and the Technology Category.3. Predictive ModelModel: Linear Regression ($\text{Sales} \sim \text{Profit} + \text{Discount}$).Evaluation: The model was weak ($\mathbf{R^2} = 0.2708$), indicating that Profit and Discount alone are insufficient predictors for Sales volume.✅ Actionable RecommendationOptimize Discounting Strategy: Implement a strict discount ceiling (e.g., $\approx 20\%$) to prevent transactions from falling into negative profit margins. Use high discounts only for strategic inventory clearance.⚙️ Tools & LibrariesPython, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn.
+📄 Global Superstore Sales Analysis
+🎯 Project Goal
+
+Conduct Exploratory Data Analysis (EDA) and Sales Performance Analysis on the Global Superstore dataset to identify key trends and build a preliminary predictive sales model.
+
+💾 Dataset
+
+File: global_superstore.csv
+
+Key Columns: Sales, Profit, Discount, Region, Category, Date
+
+📊 Key Findings
+1. Profitability & Risk
+
+Critical Correlation: Strong negative correlation (−0.57) between Discount and Profit. High discounts are the main cause of transactions resulting in losses.
+
+Anomaly: High sales often correlate with high shipping costs → larger, higher-value orders are expensive to fulfill.
+
+2. Performance & Trends
+
+Seasonality: Sales show consistent yearly seasonality, peaking sharply in Q4.
+
+Top Performers: Central Region and Technology Category have the highest total sales.
+
+3. Predictive Model
+
+Model: Linear Regression (Sales ~ Profit + Discount)
+
+Evaluation: Weak performance (R² = 0.2708) → Profit and Discount alone are insufficient predictors of Sales.
+
+✅ Actionable Recommendations
+
+Optimize Discounting Strategy:
+Implement a discount ceiling (~20%) to prevent negative profit margins. Apply higher discounts only for strategic inventory clearance.
+
+⚙️ Tools & Libraries
+
+Language: Python
+
+Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
