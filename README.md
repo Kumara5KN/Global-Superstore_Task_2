@@ -26,7 +26,7 @@ Top Performers: Central Region and Technology Category have the highest total sa
 
 Model: Linear Regression (Sales ~ Profit + Discount)
 
-Evaluation: Weak performance (R² = 0.2708) → Profit and Discount alone are insufficient predictors of Sales.
+Evaluation: Weak performance (R² = 0.1391) → Profit and Discount alone are insufficient predictors of Sales.
 
 ✅ Actionable Recommendations
 
